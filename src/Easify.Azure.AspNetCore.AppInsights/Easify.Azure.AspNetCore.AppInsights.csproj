@@ -5,8 +5,8 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Easify.AspNetCore.Observability.AppInsights</Title>
         <Authors>Mohammad Moattar</Authors>
-        <PackageProjectUrl>https://github.com/icgam/Easify</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/icgam/Easify</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/icgam/Easify.Azure</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/icgam/Easify.Azure</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
