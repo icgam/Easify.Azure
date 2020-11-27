@@ -1,5 +1,11 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore.AppInsights", "Easify.Azure.AspNetCore.AppInsights\Easify.Azure.AspNetCore.AppInsights.csproj", "{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Azure.AspNetCore.AppInsights", "Easify.Azure.AspNetCore.AppInsights\Easify.Azure.AspNetCore.AppInsights.csproj", "{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore.AppInsights.UnitTests", "Easify.Azure.AspNetCore.AppInsights.UnitTests\Easify.Azure.AspNetCore.AppInsights.UnitTests.csproj", "{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +17,13 @@ Global
 		{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89} = {62474ED1-B51D-4E3B-B4A8-86331DDA4E9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD317B39-D1E3-4033-A80A-C5F8CACAAF2C}
