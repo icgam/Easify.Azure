@@ -3,15 +3,15 @@ name: CI on Branched and PRs
 on:
   workflow_dispatch:
     branches: 
-    - '!master'
+      - '!master'
      
   push:
     branches: 
-    - '!master'
+      - '!master'
      
   pull_request:
     branches: 
-    - master
+      - master
     paths: 'src/**'
 
 jobs:
