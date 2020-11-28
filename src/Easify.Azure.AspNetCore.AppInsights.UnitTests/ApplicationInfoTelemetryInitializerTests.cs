@@ -26,6 +26,7 @@ using NSubstitute;
 using Xunit;
 using Environment = Easify.Configurations.Environment;
 
+
 namespace Easify.Azure.AspNetCore.AppInsights.UnitTests
 {
     public class ApplicationInfoTelemetryInitializerTests
