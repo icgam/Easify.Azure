@@ -38,13 +38,13 @@ jobs:
       uses: gittools/actions/gitversion/execute@v0.9.7
     - name: Display the version
       run: |
-        echo "Version: ${{ steps.gitversion.outputs.semver }}"
+        echo "Version: ${{ steps.gitversion.outputs.semVer }}"
     - name: Build & Test with dotnet
       run: |
-        dotnet build src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semver }}
+        dotnet build src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}
     - name: Unit & integration test
       run: |
-        dotnet test src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semver }}    
+        dotnet test src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}    
     - uses: actions/upload-artifact@v2
       with:
         name: nuget-packages
