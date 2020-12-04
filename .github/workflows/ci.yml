@@ -1,17 +1,18 @@
-name: CI on Branched and PRs
+name: CI on Branches and PRs
 
 on:
   workflow_dispatch:
-    branches:
-      - "!master"
+    branches: [ "*" ]
+    branches-ignore: [ master ]
+    paths: "src/**"
 
   push:
-    branches:
-      - "!master"
+    branches: [ "*" ]
+    branches-ignore: [ master ]
+    paths: "src/**"
 
   pull_request:
-    branches:
-      - master
+    branches: [ master ]
     paths: "src/**"
 
 jobs:
@@ -31,20 +32,21 @@ jobs:
         with:
           dotnet-version: "3.1.x"
       - name: Install dependencies
-        run: dotnet restore src/Easify.Azure.sln
+        run: dotnet restore src
       - name: Use GitVersion
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.7
       - name: Display the version
         run: |
           echo "Version: ${{ steps.gitversion.outputs.semVer }}"
-      - name: Build & Test with dotnet
+      - name: Build
         run: |
-          dotnet build src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}
+          dotnet build src --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}
       - name: Unit & integration test
         run: |
-          dotnet test src/Easify.Azure.sln --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}
-      - uses: actions/upload-artifact@v2
+          dotnet test src --configuration Release --no-restore -p:version=${{ steps.gitversion.outputs.semVer }}
+      - name: Collect Artifacts
+        uses: actions/upload-artifact@v2
         with:
           name: nuget-packages
           path: "**/*.nupkg"
