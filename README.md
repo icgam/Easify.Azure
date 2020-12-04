@@ -1,15 +1,18 @@
-Library Name 
+Easify - Azure 
 ============
 
-Brief description of the component or library.
+The repository contains a set of libraries to facilitate the development of Azure Cloud. This is an extension to the Easify framework but it is covering the integration with the services in Azure.
 
 ## Get Started
 
-Description of how to start working with library
+The repository consists of the following components:
+
+- **Easify.Azure.AspNetCore.AppInsights**: Provide extensions and components to automate integration with Azure AppInsights
+
 
 ### How to use
 
-The usage of the library or link to the relevant wiki page need to be here.
+Detail information on how to use the libraries can be found [here](https://github.com/icgam/Easify.Azure/wiki)
 
 ### How to Engage, Contribute, and Give Feedback
 
@@ -27,4 +30,7 @@ Security issues and bugs should be reported by creating the relevant features an
 
 ## Related projects
 
-Include related projects 
+- [Easify](https://github.com/icgam/Easify)
+- [Easify.Ef](https://github.com/icgam/Easify.Ef)
+- [Easify.Templates](https://github.com/icgam/Easify.Templates)
+- 
