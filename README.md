@@ -1,6 +1,9 @@
 Easify - Azure 
 ============
 
+![Release build on master/main](https://github.com/icgam/Easify.Azure/workflows/Release%20build%20on%20master/main/badge.svg) ![Release build on master/main](https://github.com/icgam/Easify.Azure/workflows/Release%20build%20on%20master/main/badge.svg) ![](https://img.shields.io/nuget/v/Easify.Azure.AspNetCore.AppInsights.svg?style=flat-square)
+
+
 The repository contains a set of libraries to facilitate the development of Azure Cloud. This is an extension to the Easify framework but it is covering the integration with the services in Azure.
 
 ## Get Started
