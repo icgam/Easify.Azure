@@ -36,4 +36,3 @@ Security issues and bugs should be reported by creating the relevant features an
 - [Easify](https://github.com/icgam/Easify)
 - [Easify.Ef](https://github.com/icgam/Easify.Ef)
 - [Easify.Templates](https://github.com/icgam/Easify.Templates)
-- 
