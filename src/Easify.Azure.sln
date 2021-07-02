@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Azure.AspNetCore.App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore.AppInsights.UnitTests", "Easify.Azure.AspNetCore.AppInsights.UnitTests\Easify.Azure.AspNetCore.AppInsights.UnitTests.csproj", "{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore", "Easify.Azure.AspNetCore\Easify.Azure.AspNetCore.csproj", "{D413300A-5272-4D1C-9F14-5E20C1D3B24E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D413300A-5272-4D1C-9F14-5E20C1D3B24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D413300A-5272-4D1C-9F14-5E20C1D3B24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D413300A-5272-4D1C-9F14-5E20C1D3B24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D413300A-5272-4D1C-9F14-5E20C1D3B24E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
