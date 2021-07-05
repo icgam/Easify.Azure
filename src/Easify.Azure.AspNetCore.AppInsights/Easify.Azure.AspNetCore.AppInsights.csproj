@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>Easify.AspNetCore.Observability.AppInsights</Title>
+        <Title>Easify.Azure.AspNetCore.AppInsights</Title>
         <Authors>Mohammad Moattar</Authors>
         <PackageProjectUrl>https://github.com/icgam/Easify.Azure</PackageProjectUrl>
         <RepositoryUrl>https://github.com/icgam/Easify.Azure</RepositoryUrl>
