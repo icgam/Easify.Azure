@@ -38,6 +38,5 @@ namespace Easify.Azure.AspNetCore.AppInsights.UnitTests
             sp.GetRequiredService<ITelemetryInitializer>().Should().NotBeNull().And
                 .BeAssignableTo(typeof(ApplicationInfoTelemetryInitializer));
         }
-
     }
 }
