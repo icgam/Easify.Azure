@@ -25,8 +25,4 @@
       <ProjectReference Include="..\Easify.Azure.AspNetCore\Easify.Azure.AspNetCore.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="KeyVault" />
-    </ItemGroup>
-
 </Project>
