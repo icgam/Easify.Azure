@@ -44,6 +44,8 @@ namespace Easify.Azure.Serilog
                 .WriteTo
                 .AzureAnalytics(options.WorkspaceId,options.AuthenticationId, logName:options.LogName);
 
+            // TODO: Sanitization of the LogName
+            
             return sinkBuilderContext.Clone(loggerConfiguration);
         }
     }
