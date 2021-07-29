@@ -7,7 +7,7 @@ using Serilog;
 namespace Easify.Azure.Serilog
 {
     [ExcludeFromCodeCoverage]
-    public static class SinkBuilderContext
+    public static class SinkBuilderContextExtensions
     {
         public static ISinkBuilderContext UseAzureTableStorage(this ISinkBuilderContext sinkBuilderContext, IConfiguration configuration, Action<AzureTableStorageOptions> configure = null)
         {
@@ -42,7 +42,7 @@ namespace Easify.Azure.Serilog
             var loggerConfiguration = sinkBuilderContext
                 .LoggerConfiguration
                 .WriteTo
-                .AzureAnalytics(options.WorkspaceId,options.AuthenticationId);
+                .AzureAnalytics(options.WorkspaceId,options.AuthenticationId, logName:options.LogName);
 
             return sinkBuilderContext.Clone(loggerConfiguration);
         }
