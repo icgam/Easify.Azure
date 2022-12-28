@@ -6,7 +6,7 @@ using Azure.Extensions.AspNetCore.Configuration.Secrets;
 using Azure.Identity;
 using Microsoft.Extensions.Configuration;
 
-namespace Easify.Azure.AspNetCore.KeyVaults
+namespace LittleBlocks.Azure.AspNetCore.KeyVaults
 {
     public static class KeyVaultExtensions
     {

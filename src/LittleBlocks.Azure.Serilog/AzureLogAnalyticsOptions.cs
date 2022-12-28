@@ -1,4 +1,4 @@
-﻿namespace Easify.Azure.Serilog
+﻿namespace LittleBlocks.Azure.Serilog
 {
     public sealed class AzureLogAnalyticsOptions
     {

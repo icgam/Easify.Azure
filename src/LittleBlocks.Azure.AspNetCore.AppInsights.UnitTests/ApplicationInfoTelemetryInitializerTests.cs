@@ -1,5 +1,5 @@
-// This software is part of the Easify framework
-// Copyright (C) 2019 Intermediate Capital Group
+// This software is part of the LittleBlocks framework
+// Copyright (C) 2019 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -15,7 +15,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 using System;
-using Easify.Configurations;
+using LittleBlocks.Configurations;
 using FluentAssertions;
 using Microsoft.ApplicationInsights.Channel;
 using Microsoft.ApplicationInsights.DataContracts;
@@ -24,10 +24,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using NSubstitute;
 using Xunit;
-using Environment = Easify.Configurations.Environment;
+using Environment = LittleBlocks.Configurations.Environment;
 
 
-namespace Easify.Azure.AspNetCore.AppInsights.UnitTests
+namespace LittleBlocks.Azure.AspNetCore.AppInsights.UnitTests
 {
     public class ApplicationInfoTelemetryInitializerTests
     {
@@ -41,7 +41,7 @@ namespace Easify.Azure.AspNetCore.AppInsights.UnitTests
             services.AddOptions<Application>().Configure(a =>
             {
                 a.Environment = new Environment {Name = "Development"};
-                a.Name = "Easify Azure";
+                a.Name = "LittleBlocks Azure";
             });
 
             var sp = services.BuildServiceProvider();
@@ -53,8 +53,8 @@ namespace Easify.Azure.AspNetCore.AppInsights.UnitTests
             sut.Initialize(telemetry);
 
             //Assert
-            telemetry.Context.Cloud.RoleName.Should().Be("Easify Azure-Development");
-            telemetry.Context.Cloud.RoleInstance.Should().Be("Easify Azure-Development-Instance");
+            telemetry.Context.Cloud.RoleName.Should().Be("LittleBlocks Azure-Development");
+            telemetry.Context.Cloud.RoleInstance.Should().Be("LittleBlocks Azure-Development-Instance");
         }
 
         public class MockTelemetry : ITelemetry

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using Easify.Logging.SeriLog;
+using LittleBlocks.Logging.SeriLog;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 
-namespace Easify.Azure.Serilog
+namespace LittleBlocks.Azure.Serilog
 {
     [ExcludeFromCodeCoverage]
     public static class SinkBuilderContextExtensions

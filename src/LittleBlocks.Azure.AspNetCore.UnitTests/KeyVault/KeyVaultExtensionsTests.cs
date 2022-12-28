@@ -1,9 +1,9 @@
-﻿using Easify.Azure.AspNetCore.KeyVaults;
+﻿using LittleBlocks.Azure.AspNetCore.KeyVaults;
 using FluentAssertions;
 using Microsoft.Extensions.Configuration;
 using Xunit;
 
-namespace Easify.Azure.AspNetCore.UnitTests.KeyVault
+namespace LittleBlocks.Azure.AspNetCore.UnitTests.KeyVault
 {
     public class KeyVaultExtensionsTests
     {

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Azure.AspNetCore.AppInsights", "Easify.Azure.AspNetCore.AppInsights\Easify.Azure.AspNetCore.AppInsights.csproj", "{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LittleBlocks.Azure.AspNetCore.AppInsights", "LittleBlocks.Azure.AspNetCore.AppInsights\LittleBlocks.Azure.AspNetCore.AppInsights.csproj", "{0F5246A7-C0B6-48F3-9BC4-FEF16874BD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore.AppInsights.UnitTests", "Easify.Azure.AspNetCore.AppInsights.UnitTests\Easify.Azure.AspNetCore.AppInsights.UnitTests.csproj", "{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Azure.AspNetCore.AppInsights.UnitTests", "LittleBlocks.Azure.AspNetCore.AppInsights.UnitTests\LittleBlocks.Azure.AspNetCore.AppInsights.UnitTests.csproj", "{A80E9116-95B6-43A5-A227-4C96D6C8ADB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore", "Easify.Azure.AspNetCore\Easify.Azure.AspNetCore.csproj", "{D413300A-5272-4D1C-9F14-5E20C1D3B24E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Azure.AspNetCore", "LittleBlocks.Azure.AspNetCore\LittleBlocks.Azure.AspNetCore.csproj", "{D413300A-5272-4D1C-9F14-5E20C1D3B24E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.AspNetCore.UnitTests", "Easify.Azure.AspNetCore.UnitTests\Easify.Azure.AspNetCore.UnitTests.csproj", "{F647B941-F688-4C7F-A45B-5F0AD5772FE1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Azure.AspNetCore.UnitTests", "LittleBlocks.Azure.AspNetCore.UnitTests\LittleBlocks.Azure.AspNetCore.UnitTests.csproj", "{F647B941-F688-4C7F-A45B-5F0AD5772FE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Azure.Serilog", "Easify.Azure.Serilog\Easify.Azure.Serilog.csproj", "{0DBB081F-8EA1-410D-9340-2D5D5003E657}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Azure.Serilog", "LittleBlocks.Azure.Serilog\LittleBlocks.Azure.Serilog.csproj", "{0DBB081F-8EA1-410D-9340-2D5D5003E657}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

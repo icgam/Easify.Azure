@@ -1,5 +1,5 @@
-﻿// This software is part of the Easify framework
-// Copyright (C) 2019 Intermediate Capital Group
+﻿// This software is part of the LittleBlocks framework
+// Copyright (C) 2019 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -18,7 +18,7 @@ using System;
 using Microsoft.ApplicationInsights.DependencyCollector;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Easify.Azure.AspNetCore.AppInsights
+namespace LittleBlocks.Azure.AspNetCore.AppInsights
 {
     public sealed class TelemetryConfigure : ITelemetryConfigure
     {

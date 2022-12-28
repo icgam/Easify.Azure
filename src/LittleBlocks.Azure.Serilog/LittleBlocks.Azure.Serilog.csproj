@@ -3,15 +3,15 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>Easify.Azure.Serilog</Title>
+        <Title>LittleBlocks.Azure.Serilog</Title>
         <Authors>Mohammad Moattar</Authors>
-        <PackageProjectUrl>https://github.com/icgam/Easify.Azure</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/icgam/Easify.Azure</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
         <LangVersion>default</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Easify.Logging.SeriLog" Version="5.0.1" />
+      <PackageReference Include="LittleBlocks.Logging.SeriLog" Version="5.0.1" />
       <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="3.1.0" />
       <PackageReference Include="Serilog.Sinks.AzureAnalytics" Version="4.7.0" />
       <PackageReference Include="Serilog.Sinks.AzureTableStorage" Version="5.0.0" />

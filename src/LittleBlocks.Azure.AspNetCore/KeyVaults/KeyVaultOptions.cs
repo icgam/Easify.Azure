@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace Easify.Azure.AspNetCore.KeyVaults
+namespace LittleBlocks.Azure.AspNetCore.KeyVaults
 {
     public class KeyVaultOptions
     {

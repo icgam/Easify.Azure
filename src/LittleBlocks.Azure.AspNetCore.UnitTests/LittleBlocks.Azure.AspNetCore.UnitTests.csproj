@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Easify.Azure.AspNetCore\Easify.Azure.AspNetCore.csproj" />
+      <ProjectReference Include="..\LittleBlocks.Azure.AspNetCore\LittleBlocks.Azure.AspNetCore.csproj" />
     </ItemGroup>
 
 </Project>
