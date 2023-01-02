@@ -1,19 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>LittleBlocks.Azure.Serilog</Title>
         <Authors>Mohammad Moattar</Authors>
         <PackageProjectUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</PackageProjectUrl>
         <RepositoryUrl>https://github.com/LittleBlocks/LittleBlocks.Azure</RepositoryUrl>
         <LangVersion>default</LangVersion>
+        <PackageIcon>Logo.png</PackageIcon>
+        <TargetFrameworks>net47;net5.0;net6.0;netstandard2.0</TargetFrameworks>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LittleBlocks.Logging.SeriLog" Version="5.0.1" />
-      <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="3.1.0" />
-      <PackageReference Include="Serilog.Sinks.AzureAnalytics" Version="4.7.0" />
+      <PackageReference Include="LittleBlocks.Logging.SeriLog" Version="1.0.1" />
+      <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
+      <PackageReference Include="Serilog.Sinks.AzureAnalytics" Version="4.8.0" />
       <PackageReference Include="Serilog.Sinks.AzureTableStorage" Version="5.0.0" />
     </ItemGroup>
 
